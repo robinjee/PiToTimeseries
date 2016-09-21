@@ -1,0 +1,7 @@
+---
+applications:
+  - name: demo-ts-app-python-robin
+    buildpack: python_buildpack
+    command: python hello-robin.py
+    memory: 1024MB
+    disk_quota: 1024MB
